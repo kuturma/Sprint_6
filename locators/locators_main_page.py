@@ -11,6 +11,9 @@ class PageHeaderLocators:
     # Кнопка "Заказать" вверху страницы
     BUTTON_ORDER_SCOOTER_ON_TOP = (By.CLASS_NAME, 'Button_Button__ra12g')
 
+    # Логотип Дзен вверху страницы дзена
+    LOGO_DZEN = (By.CLASS_NAME, "dzen-layout--desktop-base-header__logoLink-2h")
+
 
 class ImportantQuestionLocators:
 

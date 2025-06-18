@@ -1,5 +1,4 @@
 import allure
-import time
 from pages.main_page import MainPage
 from locators.locators_main_page import PageHeaderLocators, ButtonOrderInCenterPageLocators
 from locators.locators_order_page import ForWhoScooterPageLocators, AboutRentPageLocators, WindowWantOrderLocators, WindowOrderMadeLocators
@@ -83,5 +82,4 @@ class EnterDataUserForWho:
 
         # Клик по кнопке "Да" в окне "Хотите оформить заказ?"  
         self.page.click_wait_element_clickable(confirm_order.BUTTON_YES)
-        time.sleep(5)
         

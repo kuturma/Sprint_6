@@ -1,6 +1,6 @@
 import allure
 import pytest
-from pages.main_page import MainPage
+from pages.checks_on_the_main_page import ChecksOnTheMainPage
 from locators.locators_main_page import ImportantQuestionLocators
 
 
@@ -18,5 +18,5 @@ class TestAnswerAndQuestion:
         (locator.QWESTION_8, locator.ANSWER_8)
 ])
     def test_check_text(self, driver, question_locator, answer_locator):
-        main_page = MainPage(driver)
-        main_page.check_answer_and_question(question_locator, answer_locator)
+        checks_main_page = ChecksOnTheMainPage(driver)
+        checks_main_page.check_answer_and_question(question_locator, answer_locator)

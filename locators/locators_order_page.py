@@ -55,8 +55,6 @@ class AboutRentPageLocators:
     # Кнопка: Заказать
     BUTTON_ORDER = (By.XPATH, '//button[@class="Button_Button__ra12g Button_Middle__1CSJM"]')
 
-    # Кнопка: Назад
-    BUTTON_BACK = (By.XPATH, '//button[@class="Button_Button__ra12g Button_Middle__1CSJM Button_Inverted__3IF-i"]')  ### НЕ ИСПОЛЬЗОВАЛСЯ
 
     
 # Всплывающее окно: Хотите оформить заказ?
@@ -65,15 +63,12 @@ class WindowWantOrderLocators:
     # Поле: ДА
     BUTTON_YES = (By.XPATH, '//button[text()="Да"]')
 
-    # Поле: НЕТ
-    BUTTON_NO = (By.XPATH, '//button[text()="Нет"]')  ### НЕ ИСПОЛЬЗОВАЛСЯ
 
 # Всплывающее окно: Заказ оформлен
 class WindowOrderMadeLocators:
 
     # Заголовок окна: Заказ оформлен
     HEADER_ORDER_MADE = (By.XPATH, '//div[text()="Заказ оформлен"]')
-    # Поле: Кнопка "Посмотреть статус"
-    BUTTON_CHECK_STATUS = (By.XPATH, '//button[text()="Посмотреть статус"]') ### НЕ ИСПОЛЬЗОВАЛСЯ
+
 
 
