@@ -1,0 +1,32 @@
+# Виртуальные окружения
+__pycache__/
+*.py[cod]
+env/
+venv/
+ENV/
+
+# Логи и скриншоты
+logs/
+*.log
+*.png
+*.jpg
+
+# Данные пользователя (не коммитируются)
+*.sqlite3
+*.db
+
+# Секретные данные
+.env
+*.ini
+*.json
+*.yaml
+*.yml
+
+# IDE / редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+
